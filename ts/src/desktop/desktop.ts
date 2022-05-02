@@ -2,8 +2,6 @@ import { AppWindow } from "../AppWindow";
 import { kWindowNames } from "../consts";
 
 
-let data;
-
 function getData(){   
     const url = "https://script.google.com/macros/s/AKfycbwD8pCJpdyJrR4mEFvcrdfYsdLFgqBddOipMXPTHWC0iqXP3J3LHg5CFA4GrpVUP9gX/exec";
     fetch(url,{mode: 'no-cors', method: 'GET'})
